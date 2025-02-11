@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Gmailでリンク送信",
+  "version": "1.1",
+  "description": "拡張機能のアイコンをクリックすると、現在のページのリンクをGmailの作成画面（小さめのウィンドウ）で開きます。",
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "windows"
+  ]
+}

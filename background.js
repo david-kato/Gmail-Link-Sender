@@ -10,7 +10,7 @@ chrome.action.onClicked.addListener((tab) => {
   chrome.windows.create({
     url: gmailComposeUrl,
     type: "popup",
-    width: 600,   // Adjust width as needed
-    height: 600   // Adjust height as needed
+    width: 400,   // Adjust width as needed
+    height: 400   // Adjust height as needed
   });
 });
